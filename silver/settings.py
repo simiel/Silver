@@ -55,7 +55,7 @@ ROOT_URLCONF = 'silver.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        "DIRS": ["silver/templates/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
